@@ -1,2 +1,2 @@
 <h1>Encriptador de texto</h1>
-<p>Este es un encriptador de texto.</p>
+<p>Este proyecto se desarrolló usando HTML, CSS y JavaScript.</p>
