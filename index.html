@@ -1,11 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Este sitio es un encriptador de textos." />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Encriptador de texto</title>
 </head>
+
 <body>
-    
+    <header class="header">
+        <img src="./image/Logo.png" alt="Logo de alura" class="logo">
+    </header>
+
+    <main>
+        <section class="input-section">
+            <textarea class="input-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <p class="warning-message">ℹ️ Sólo letras minúsculas y sin acentos</p>
+            </div>      
+            <div class="buttons">
+                <button class="btn-encrypt">Encriptar</button>
+                <button class="btn-decrypt">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="output-section">
+            <textarea class="output-area" cols="20" rows="10" readonly></textarea>
+            <div>
+                <button class="btn-copy">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarrollado con 💙 por @immariomoreno</p>
+    </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>
