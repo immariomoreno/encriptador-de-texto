@@ -1,4 +1,4 @@
-# 🔐 Encriptador de Texto - Proyecto Alura
+# 🔐 Encriptador de Texto 
 
 ¡Bienvenido al Encriptador de Texto! 🚀 Este proyecto fue desarrollado para que puedas proteger tus mensajes de manera divertida y segura. Encripta y desencripta texto con solo un clic y siente la magia de la transformación.
 
